@@ -80,3 +80,4 @@ zipp==0.6.0
 gunicorn==20.0.0
 APScheduler==3.0.0
 tabulate==0.8.6
+pushbullet.py==0.11.0
