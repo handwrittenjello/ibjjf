@@ -51,7 +51,7 @@ print('\n'*4)
 
 
 # Opens Previous Bracket and converts original Markdown to List
-with open(MYDIR + 'OGBracket.md', "r") as l:
+with open(os.path.join(MYDIR, 'OGBracket.md')) as l:
     originalBracketList = l.readlines()
 l.close()
 
