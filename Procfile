@@ -1,1 +1,1 @@
-web: python ibjjf.py
+worker: python ibjjf.py
