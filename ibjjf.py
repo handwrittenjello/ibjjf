@@ -6,6 +6,9 @@ import re
 from tabulate import tabulate
 import os
 from pushbullet import Pushbullet
+import sys
+
+print(sys.executable)
 
 cwd = os.getcwd()
 
