@@ -1,1 +1,1 @@
-heroku ps:scale ibjjf=1
+web: python ibjjf.py
