@@ -13,7 +13,7 @@ print(sys.executable)
 cwd = os.getcwd()
 
 MYDIR = os.path.dirname(__file__)
-
+print(MYDIR)
 
 pb = Pushbullet('o.1KwoYNtz1JnCkmfS4Xn6xuKxudks5SdA')
 
