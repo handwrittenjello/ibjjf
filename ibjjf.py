@@ -9,7 +9,8 @@ from pushbullet import Pushbullet
 
 cwd = os.getcwd()
 
-print(cwd)
+MYDIR = os.path.dirname(__file__)
+
 
 pb = Pushbullet('o.1KwoYNtz1JnCkmfS4Xn6xuKxudks5SdA')
 
@@ -50,8 +51,8 @@ print('\n'*4)
 
 
 # Opens Previous Bracket and converts original Markdown to List
-l = open("OGBracket.md", "r")
-originalBracketList = l.readlines()
+with open(MYDIR + '/OGBracket.md', "r") as l:
+    originalBracketList = l.readlines()
 l.close()
 
 
