@@ -48,15 +48,15 @@ print('\n'*4)
 
 
 # Opens Previous Bracket and converts original Markdown to List
-l = open("/OGBracket.md", "r")
+l = open("OGBracket.md", "r")
 originalBracketList = l.readlines()
 l.close()
 
 
-f = open("/newBracket.md", "w")
+f = open("newBracket.md", "w")
 f.write(str(df))
 
-f = open("/newBracket.md", "r")
+f = open("newBracket.md", "r")
 newBracketList = f.readlines()
 f.close()
 
@@ -68,7 +68,7 @@ def Diff(newBracketList, originalBracketList):
 diffValue = Diff(newBracketList, originalBracketList)
 
 if diffValue:
-    f = open("/OGBracket.md", "w")
+    f = open("OGBracket.md", "w")
     f.write(str(df))
     diffValue = str(diffValue)
     diffValue = diffValue[8:]
