@@ -9,6 +9,8 @@ from pushbullet import Pushbullet
 
 cwd = os.getcwd()
 
+print(cwd)
+
 pb = Pushbullet('o.1KwoYNtz1JnCkmfS4Xn6xuKxudks5SdA')
 
 
@@ -48,7 +50,7 @@ print('\n'*4)
 
 
 # Opens Previous Bracket and converts original Markdown to List
-l = open("/app/OGBracket.md", "r")
+l = open("OGBracket.md", "r")
 originalBracketList = l.readlines()
 l.close()
 
