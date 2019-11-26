@@ -48,7 +48,7 @@ print('\n'*4)
 
 
 # Opens Previous Bracket and converts original Markdown to List
-l = open("OGBracket.md", "r")
+l = open("/app/OGBracket.md", "r")
 originalBracketList = l.readlines()
 l.close()
 
